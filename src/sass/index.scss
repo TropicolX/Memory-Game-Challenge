@@ -1,0 +1,14 @@
+button {
+  width: 100%;
+  border: none;
+  transition: background-color 90ms ease-out;
+  cursor: pointer;
+  user-select: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+  &::slotted {
+    user-select: none;
+  }
+}
